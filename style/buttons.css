@@ -1,0 +1,90 @@
+.button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition: opacity 0.15s;
+  vertical-align: top;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+.button:active{
+  opacity: 0.5;
+}
+
+.JOIN{
+  background-color: white;
+  border-color:blue(45, 22, 158);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(41, 118, 211);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: background-color 0.15s;
+  color:1s;
+}
+
+.JOIN:hover {
+  background-color: rgb(41, 118, 211);
+  color:white;
+}
+.JOIN:active{
+  opacity: 0.7;
+}
+
+
+.Tweet{
+  background-color:rgb(2, 137, 2557);
+  color:white;
+  border: unset;
+  height: 30px;
+  width: 70px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+
+}
+.Tweet:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+.Tweet:active{
+  opacity: 0.8;
+}
+
+.Applyhere{
+  background-color: rgb(23, 23, 180);
+  color:white;
+  border: unset;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+  margin-left: 10px;
+  vertical-align: top;
+}
+.Applyhere:hover{
+  box-shadow: 5px 5px 0px black;
+  }
+.Applyhere:active{
+  opacity: 0.7;
+}
