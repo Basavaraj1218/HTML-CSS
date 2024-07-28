@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/line.png">
+        <img class="youtube-logo" src="icons/youtube.png">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button" >
+          <img class="search-icon" src="icons/search.png">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-icon" src="icons/mic.png">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+        <img class="upload-icon" src="icons/video.png">
+        <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+        <img class="youtube-apps-icon" src="icons/dots.png">
+        <div class="tooltip">More apps</div>
+        </div>
+        <div class="notifications-picon-container">
+        <div class="notifications-icon-container">
+        <img class="notification-icon" src="icons/bell.png">
+        <div class="tooltip">Notifications</div>
+        <div class="notification-count">3</div>
+        </div>
+        </div>
+        <img class="current-user-pic" src="icons/zenitsu-swordsmanship_800.gif">
+      </div>
+    </header>
+    <nav class="sidebar">
+     <div class="sidebar-link">
+      <img  class="home-icon" src="icons/home.png">
+      <div>Home</div>
+     </div>
+     <div class="sidebar-link">
+      <img   src="icons/explore.png">
+      <div>Explore</div>
+     </div>
+     <div class="sidebar-link">
+      <img   src="icons/subscription.png">
+      <div>Subscriptions</div>
+     </div>
+     <div class="sidebar-link">
+      <img  src="icons/originals.png">
+      <div>Originals</div>
+     </div>
+     <div class="sidebar-link">
+      <img   src="icons/youtubemusic.png">
+      <div>YouTube Music</div>
+     </div>
+     <div class="sidebar-link">
+      <img   src="icons/library.png">
+      <div>Library</div>
+     </div>
+    </nav>
+    <main>
+    <div class="video-grid">
+     
+      <div class="viedo-preview"> 
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="intro-to-html/tanjiro-circle-of-fire_800.gif">
+          <div class="viedo-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-pic" src="channel-pics/bp.png">
+          </div>
+          <div class="video-info">
+            <p class="viedo-title">
+              Talking tech and AI with Google CEO sundar
+              pichau!
+            </p>
+            <p class="viedo-author">
+              Marques Brownlee
+            </p>
+            <p class="viedo-status">
+              3.4M &#183; 6 months ago
+            </p>
+          </div>
+          </div>
+      </div>
+      
+      <div class="viedo-preview"> 
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="intro-to-html/bp.png">
+          <div class="viedo-time">8:22</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-pic" src="channel-pics/gojo.png">
+          </div>
+          <div class="video-info">
+            <p class="viedo-title">
+              Try not to laugh
+            </p>
+            <p class="viedo-author">
+              Markiplier
+            </p>
+            <p class="viedo-status">
+              19M &#183; 4 years ago
+            </p>
+          </div>
+          </div>
+      </div>
+  
+      <div class="viedo-preview"> 
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="intro-to-html/tanjiro-circle-of-fire_800.gif">
+          <div class="viedo-time">9:13</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-pic" src="channel-pics/bp.png">
+          </div>
+          <div class="video-info">
+            <p class="viedo-title">
+              Talking tech and AI with Google CEO sundar
+              pichau!
+            </p>
+            <p class="viedo-author">
+              Marques Brownlee
+            </p>
+            <p class="viedo-status">
+              3.4M &#183; 6 months ago
+            </p>
+          </div>
+          </div>
+      </div>
+      
+      <div class="viedo-preview"> 
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="intro-to-html/gojo.png">
+          <div class="viedo-time">23:40</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-pic" src="channel-pics/gojo.png">
+          </div>
+          <div class="video-info">
+            <p class="viedo-title">
+              Try not to laugh
+            </p>
+            <p class="viedo-author">
+              Markiplier
+            </p>
+            <p class="viedo-status">
+              19M &#183; 4 years ago
+            </p>
+          </div>
+          </div>
+      </div>
+  
+      <div class="viedo-preview"> 
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="intro-to-html/gojo.png">
+          <div class="viedo-time">11:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-pic" src="channel-pics/bp.png">
+          </div>
+          <div class="video-info">
+            <p class="viedo-title">
+              pray for it i will deal with
+              EVRYTHINGSS!
+            </p>
+            <p class="viedo-author">
+              Martyr Hindu
+            </p>
+            <p class="viedo-status">
+              34M &#183; 9 months ago
+            </p>
+          </div>
+          </div>
+      </div>
+      
+      <div class="viedo-preview"> 
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="intro-to-html/bp.png">
+          <div class="viedo-time">7:55</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-pic" src="channel-pics/gojo.png">
+          </div>
+          <div class="video-info">
+            <p class="viedo-title">
+              Those who not know pain
+              Never know peace/? 
+            </p>
+            <p class="viedo-author">
+              Markiplier
+            </p>
+            <p class="viedo-status">
+              199M &#183; 1 years ago
+            </p>
+          </div>
+          </div>
+      </div>
+
+      <div class="viedo-preview"> 
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="intro-to-html/zenitsu-swordsmanship_800.gif">
+          <div class="viedo-time">11:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-pic" src="channel-pics/bp.png">
+          </div>
+          <div class="video-info">
+            <p class="viedo-title">
+              pray for it i will deal with
+              EVRYTHINGSS!
+            </p>
+            <p class="viedo-author">
+              Martyr Hindu
+            </p>
+            <p class="viedo-status">
+              34M &#183; 9 months ago
+            </p>
+          </div>
+          </div>
+      </div>
+      
+      <div class="viedo-preview"> 
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="intro-to-html/gojo.png">
+          <div class="viedo-time">7:55</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-pic" src="channel-pics/gojo.png">
+          </div>
+          <div class="video-info">
+            <p class="viedo-title">
+              Those who not know pain
+              Never know peace/? 
+            </p>
+            <p class="viedo-author">
+              Markiplier
+            </p>
+            <p class="viedo-status">
+              199M &#183; 1 years ago
+            </p>
+          </div>
+          </div>
+      </div>
+      
+      <div class="viedo-preview"> 
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="intro-to-html/bp.png">
+          <div class="viedo-time">11:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-pic" src="channel-pics/bp.png">
+          </div>
+          <div class="video-info">
+            <p class="viedo-title">
+              pray for it i will deal with
+              EVRYTHINGSS!
+            </p>
+            <p class="viedo-author">
+              Martyr Hindu
+            </p>
+            <p class="viedo-status">
+              34M &#183; 9 months ago
+            </p>
+          </div>
+          </div>
+      </div>
+      
+      <div class="viedo-preview"> 
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="intro-to-html/zenitsu-swordsmanship_800.gif">
+          <div class="viedo-time">7:55</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-pic" src="channel-pics/gojo.png">
+          </div>
+          <div class="video-info">
+            <p class="viedo-title">
+              Those who not know pain
+              Never know peace/? 
+            </p>
+            <p class="viedo-author">
+              Markiplier
+            </p>
+            <p class="viedo-status">
+              199M &#183; 1 years ago
+            </p>
+          </div>
+          </div>
+      </div>
+      
+      <div class="viedo-preview"> 
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="intro-to-html/gojo.png">
+          <div class="viedo-time">11:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-pic" src="channel-pics/bp.png">
+          </div>
+          <div class="video-info">
+            <p class="viedo-title">
+              pray for it i will deal with
+              EVRYTHINGSS!
+            </p>
+            <p class="viedo-author">
+              Martyr Hindu
+            </p>
+            <p class="viedo-status">
+              34M &#183; 9 months ago
+            </p>
+          </div>
+          </div>
+      </div>
+      
+      <div class="viedo-preview"> 
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="intro-to-html/bp.png">
+            <div class="viedo-time">7:55</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-pic" src="channel-pics/gojo.png">
+            </div>
+            <div class="video-info">
+              <p class="viedo-title">
+                Those who not know pain
+                Never know peace/? 
+              </p>
+              <p class="viedo-author">
+                Markiplier
+              </p>
+              <p class="viedo-status">
+                199M &#183; 1 years ago
+              </p>
+            </div>
+            </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
